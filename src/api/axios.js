@@ -1,6 +1,6 @@
 import Axios from "axios"
 const axiosInstance = Axios.create({
-    baseURL: "http://localhost:4000/",
+    baseURL: "https://car-carry.onrender.com/",
     headers: {
       "Content-Type": "application/json",
     },
