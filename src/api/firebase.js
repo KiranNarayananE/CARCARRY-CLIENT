@@ -1,14 +1,14 @@
 import {initializeApp} from "firebase/app";
 import { getAuth } from "firebase/auth"
 import 'firebase/storage'
-const firebaseConfig = {
-  apiKey: "AIzaSyDnUUVJTDG36YSfGsD0SOpuME9XC34OJk8",
-  authDomain: "carcarry-382021.firebaseapp.com",
-  projectId: "carcarry-382021",
-  storageBucket: "carcarry-382021.appspot.com",
-  messagingSenderId: "602450288038",
-  appId: "1:602450288038:web:5a968cd8bfdd278ff10367",
-  measurementId: "G-F1K25ZZ2XM"
+const firebaseConfig =  {
+  apiKey: "AIzaSyBQmtxpXDT68rMFvK7n8C1VbZZbPsK-QX8",
+  authDomain: "olx-clone-7a10e.firebaseapp.com",
+  projectId: "olx-clone-7a10e",
+  storageBucket: "olx-clone-7a10e.appspot.com",
+  messagingSenderId: "754477293792",
+  appId: "1:754477293792:web:d536b580b666d67a503085",
+  measurementId: "G-NFDM9YJDPW"
 };
 let Firebase = initializeApp(firebaseConfig)
 const auth = getAuth(Firebase)
