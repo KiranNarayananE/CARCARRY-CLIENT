@@ -31,6 +31,7 @@ import PendingBookingPage from './pages/Driver/PendingBooking';
 import TripDetailsPage from './pages/Admin/TripDetails';
 import ReportPage from './pages/Admin/Report';
 import MyTrips from './pages/User/MyTrips';
+import EarningReport from './pages/Driver/EarningReport';
 function App() {
   const isDriver = Boolean(useSelector((state) => state.driverLogin.token));
   const isAdmin = Boolean(useSelector((state) => state.adminLogin.token));
@@ -68,6 +69,7 @@ function App() {
       <Route path="/driver/pending-bookings" element={isDriver ? <PendingBookingPage /> : <Navigate to="/driver" />} /> 
       <Route path="/driver/wallet" element={isDriver ?<WalletPageDriver />:<Navigate to="/driver" />} />
       <Route path="/driver/carprofile" element={ isDriver ? <CarProfilePage /> :<Navigate to="/driver" />}/> 
+      <Route path="/driver/earnings" element={ isDriver ? <EarningReport /> :<Navigate to="/driver" />}/> 
       <Route path="/driver/approve" element={isDriver ? <Approve />:<Navigate to="/driver" />} />
     </Routes>
   </BrowserRouter>
