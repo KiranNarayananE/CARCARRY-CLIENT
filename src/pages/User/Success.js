@@ -1,6 +1,6 @@
 import Navbar from "../../components/User/Navbar";
-// import Success from "../../components/User/Success";
-import RideRating from "../../components/User/RideRating";
+import Success from "../../components/User/Success";
+
 
 
 const SuccessPage = () => {
