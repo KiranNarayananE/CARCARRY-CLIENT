@@ -74,7 +74,7 @@ const PendingList = ({ trips, fetch }) => {
                           <img
                             alt="team"
                             className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                            src={trip.driver[0].PicturePath}
+                            src={`/images/${trip.driver[0].PicturePath}`}
                           />
                         ) : (
                           <img

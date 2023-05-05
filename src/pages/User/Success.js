@@ -7,9 +7,9 @@ const SuccessPage = () => {
   return (
     <div >
       <Navbar />
-{/*       
-      <Success/> */}
-      <RideRating/>
+  
+      <Success/> 
+  
     </div>
   );
 };

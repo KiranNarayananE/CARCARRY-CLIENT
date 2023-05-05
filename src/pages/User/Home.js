@@ -4,7 +4,7 @@ import Home from "../../components/User/Home";
 
 const UserHome = () => {
   return (
-    <div >
+    <div style={{overflowY:"hidden",height:"697px"}} >
       <Navbar />
       <Home/>
     </div>

@@ -19,7 +19,7 @@ const RideRating = ({rating,setRating,setTrips,id,rated}) => {
   };  
 const submitRating = async () => {
   const response = await submit(token);
-  if (response.status === 201) return;
+  if (response.status === 201) return setTrips(response.data.trips)
   if (response.status === 200) return setTrips(response.data.trips);
   if (response.status === 500) return;
 };
